@@ -1,0 +1,54 @@
+<!DOCTYPE html> <!-- A VERSÃO DO HTML QUE ESTAMOS USANDO -->
+<!-- VERSÃO 5 DO HTML (MAIS MODERNA) -->
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8"> <!-- PADRÃO DE CARACTERES -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <title>DevClub - Gerador de IA</title>
+</head>
+
+<body>
+    <h1>
+        CSS Gerador <span>com IA</span>⚡️
+    </h1>
+
+    <p>
+        Descreva o que você imagina e veja a mágica acontecer
+    </p>
+
+    <!-- area de texto -->
+    <!-- rows - linhas -->
+    <textarea rows="3" class="caixa-texto" placeholder="Ex: Bola azul pingando"></textarea>
+
+    <button class="botao-gerar">Gerar Código ⚡️</button>
+
+    <div class="resultado">
+        <div class="area-codigo">
+            <h2>Código</h2>
+            <p class="bloco-codigo"></p>
+        </div>
+
+        <div class="area-preview">
+            <h2>Preview</h2>
+            <iframe class="resultado-codigo"></iframe>
+        </div>
+    </div>
+    <!-- colocar código dentro / pagina aqui dentro -->
+
+</body>
+
+<script src="scripts.js">
+
+</script>
+
+
+</html>
